@@ -22,6 +22,7 @@
     foreach($animals as $key => $animalClass){
 
         echo '<h1>Sto ciclando '. $key . '<h1>';
+        
         foreach($animalClass as $animal){
             echo '<p>'. $animal . '</p>';
         }
